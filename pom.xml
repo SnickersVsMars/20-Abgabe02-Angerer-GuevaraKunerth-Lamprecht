@@ -4,43 +4,60 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>at.fhj.iit</groupId>
+  <groupId>at.fhj.msd</groupId>
   <artifactId>Queue</artifactId>
   <version>1.0-SNAPSHOT</version>
 
   <name>Queue</name>
-  <url>https://github.com/michaelulm/software-configuration-management/tree/master/test-automation/junit5/Queue</url>
+  <url>https://github.com/SnickersVsMars/20-Abgabe02-Angerer-GuevaraKunerth-Lamprecht</url>
 
   <developers>
     <developer>
-      <id>michaelulm</id>
-      <name>Michael Ulm</name>
-      <email>michael.ulm@fh-joanneum.at</email>
-      <url>https://www.michael-ulm.at</url>
-      <organization>FH JOANNEUM GmbH</organization>
-      <organizationUrl>https://www.fh-joanneum.at/iit</organizationUrl>
+      <id>martin-gk</id>
+      <name>Martin Guevara-Kunerth</name>
+      <email>martin.guevara-kunerth@edu.fh-joanneum.at</email>
+      <url>https://www.gukubi.com</url>
+      <organization>Snickers vs Mars</organization>
+      <organizationUrl>https://github.com/SnickersVsMars</organizationUrl>
       <roles>
-        <role>Lecturer</role>
+        <role>Student</role>
       </roles>
       <timezone>Europe/Vienna</timezone>
       <properties>
-        <picUrl>https://avatars2.githubusercontent.com/u/15637184</picUrl>
+        <picUrl>blob:https://outlook.office365.com/66bf9b87-c92f-4c02-970e-4d943c05d0f0</picUrl>
       </properties>
     </developer>
     <developer>
-      <id>Rigbin</id>
-      <name>Harald Schwab</name>
-      <email>harald.schwab2@fh-joanneum.at</email>
-      <url>https://github.com/Rigbin</url>
-      <organization>FH JOANNEUM GmbH</organization>
-      <organizationUrl>https://www.fh-joanneum.at/iit</organizationUrl>
+      <id>lammia07</id>
+      <name>Michael Lamprecht</name>
+      <email>michael.lamprecht@edu.fh-joanneum.at</email>
+      <organization>Snickers vs Mars</organization>
+      <organizationUrl>https://github.com/SnickersVsMars</organizationUrl>
       <roles>
-        <role>Researcher</role>
+        <role>Student</role>
       </roles>
       <timezone>Europe/Vienna</timezone>
-      <properties/>
+      <properties>
+        <picUrl>https://avatars2.githubusercontent.com/u/16556726?s=460&u=3d1d4d37d6318c3657b1340412d59fa001e6c69b&v=4</picUrl>
+      </properties>
+    </developer>
+    <developer>
+      <id>SamBrix</id>
+      <name>Samuel Angerer</name>
+      <email>samuel.angerer@edu.fh-joanneum.at</email>
+      <url></url>
+      <organization>Snickers vs Mars</organization>
+      <organizationUrl>https://github.com/SnickersVsMars</organizationUrl>
+      <roles>
+        <role>Student</role>
+      </roles>
+      <timezone>Europe/Vienna</timezone>
+      <properties>
+        <picUrl>blob:https://outlook.office.com/07cafb56-52c8-45ef-b9f1-3778f9f63c2f</picUrl>
+      </properties>
     </developer>
   </developers>
+
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
