@@ -40,3 +40,4 @@ Template: https://github.com/michaelulm/software-configuration-management/tree/m
   - [ ] Labreport entry
   - [ ] Git usage
 - [ ] Labreport finalization
+
