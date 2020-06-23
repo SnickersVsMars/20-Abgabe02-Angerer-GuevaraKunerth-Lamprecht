@@ -13,14 +13,21 @@ and a Maven Site Documentation will be created.
 We will manage our source code with git over github and develop with the 
 help of IntelliJ IDEA.
 
+Template: https://github.com/michaelulm/software-configuration-management/tree/master/test-automation/junit5/Queue
+
 ## Tasklist ##
 
 - [x] Create repository
   - [x] Init readme
   - [x] Init .gitignore
 - [x] Readme with short description and first version of tasklist
-- [x] Adjust lapreport template with teammembers and github link
+- [x] Adjust labreport template with team members and github link
 - [ ] Maven & Pom
+  - [ ] Copy Template and include in Repo
+  - [ ] Change Pom.xml metainfo:
+    - [ ] Git repository info
+    - [ ] Developer info
+  - [ ] Targets clean, validate, compile, test und site are executable without warnings
   - [ ] Labreport entry
   - [ ] Git usage
 - [ ] Implementation & Comments
