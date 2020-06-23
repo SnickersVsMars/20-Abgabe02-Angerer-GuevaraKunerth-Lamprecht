@@ -38,7 +38,7 @@
       </roles>
       <timezone>Europe/Vienna</timezone>
       <properties>
-        <picUrl>https://avatars2.githubusercontent.com/u/16556726?s=460&u=3d1d4d37d6318c3657b1340412d59fa001e6c69b&v=4</picUrl>
+        <picUrl>https://avatars2.githubusercontent.com/u/16556726?s=460&amp;u=3d1d4d37d6318c3657b1340412d59fa001e6c69b&amp;v=4</picUrl>
       </properties>
     </developer>
     <developer>
@@ -99,6 +99,16 @@
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-surefire-plugin</artifactId>
         <version>2.22.1</version>
+      </plugin>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-project-info-reports-plugin</artifactId>
+        <version>3.1.0</version>
+      </plugin>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-site-plugin</artifactId>
+        <version>3.9.0</version>
       </plugin>
     </plugins>
   </build>

@@ -23,13 +23,13 @@ Template: https://github.com/michaelulm/software-configuration-management/tree/m
 - [x] Readme with short description and first version of tasklist
 - [x] Adjust labreport template with team members and github link
 - [ ] Maven & Pom
-  - [ ] Copy Template and include in Repo
-  - [ ] Change Pom.xml metainfo:
-    - [ ] Git repository info
-    - [ ] Developer info
-  - [ ] Targets clean, validate, compile, test und site are executable without warnings
+  - [x] Copy Template and include in repository
+  - [x] Change Pom.xml metainfo:
+    - [x] Git repository info
+    - [x] Developer info
+  - [x] Targets clean, validate, compile, test und site are executable without warnings
   - [ ] Labreport entry
-  - [ ] Git usage
+  - [x] Git usage
 - [ ] Implementation & Comments
   - [ ] Labreport entry
   - [ ] Git usage
