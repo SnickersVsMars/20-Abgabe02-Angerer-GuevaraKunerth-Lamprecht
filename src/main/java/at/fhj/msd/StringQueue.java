@@ -13,7 +13,11 @@ public class StringQueue implements IQueue<String> {
   private List<String> elements = new ArrayList<String>();
   private int maxSize = 5;
 
-//bug found: in constructor body both variables had the same name. changed second maxSize to maxsize
+  public int getMaxSize() {
+    return maxSize;
+  }
+
+  //bug found: in constructor body both variables had the same name. changed second maxSize to maxsize
   public StringQueue(int maxsize) {
     maxSize = maxsize;
   }
@@ -30,7 +34,7 @@ public class StringQueue implements IQueue<String> {
 
     return true;
   }
-  
+
 //bug found: changed the if statement. size has to be bigger than 0 to be able to delete something
   @Override
   public String poll() {
