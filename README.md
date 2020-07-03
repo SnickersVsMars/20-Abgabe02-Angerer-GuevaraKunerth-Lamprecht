@@ -44,6 +44,15 @@ Template: https://github.com/michaelulm/software-configuration-management/tree/m
   - [ ] Labreport entry
   - [x] Git usage
 - [ ] Maven Site Documentation
+  - [ ] Generate Javadoc as Maven Site
+  - [ ] Manuel sites
+    - [ ] Queue
+    - [ ] Testing of queues
+    - [ ] Usage of code-snippets or graphics
+    - [ ] Optional
+      - [ ] Field of application of queues
+      - [ ] Generics 
+      - [ ] Code coverage of source code tests?
   - [ ] Labreport entry
   - [ ] Git usage
 - [ ] Labreport finalization
