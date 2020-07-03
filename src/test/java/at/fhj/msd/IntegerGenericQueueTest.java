@@ -1,21 +1,23 @@
 package at.fhj.msd;
 
-import static org.junit.jupiter.api.Assertions.*;
+
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import java.util.NoSuchElementException;
+import static org.junit.jupiter.api.Assertions.*;
+
 
 /**
- * This Testclass is used to test the GenericQueue with the class String
+ * This Testclass is used to test the GenericQueue with the class Integer
  *
  * @author Samuel Angerer
  * @version %I%, %G%
  * @since 1.1
  */
-@DisplayName("Testing GenericQueue with the class String")
-public class StringGenericQueueTest {
-    private GenericQueue<String> q;
+@DisplayName("Testing GenericQueue with the class Integer")
+public class IntegerGenericQueueTest {
+    private GenericQueue<Integer> q;
 
     /**
      * Sets up a new fresh queue before every test so the test that alter the queue don't impact
@@ -38,27 +40,27 @@ public class StringGenericQueueTest {
     }
 
     /**
-     * This test tests the offer method, it offer Strings for as long as the maxSize is and the
+     * This test tests the offer method, it offer Integers for as long as the maxSize is and the
      * next offered object should get rejected
      */
     @Test
     @DisplayName("Testing offer method")
     public void testOffer(){
         for (int i = 0; i < 5; i++) {
-            assertTrue(q.offer("t"));
+            assertTrue(q.offer(1));
         }
-        assertFalse(q.offer("f"));
+        assertFalse(q.offer(0));
     }
 
     /**
-     * This test tests the poll method, first we add the string "a", then we call poll so we should
+     * This test tests the poll method, first we add the integer 2, then we call poll so we should
      * get "a", since the queue is empty now the next poll should return null
      */
     @Test
     @DisplayName("Testing poll method")
     public void testPoll(){
-        q.offer("a");
-        assertEquals("a", q.poll());
+        q.offer(2);
+        assertEquals(2, q.poll());
         assertNull(q.poll());
     }
 
@@ -69,8 +71,8 @@ public class StringGenericQueueTest {
     @Test
     @DisplayName("Testing remove method")
     public void testRemove(){
-        q.offer("a");
-        assertEquals("a", q.remove());
+        q.offer(3);
+        assertEquals(3, q.remove());
         assertThrows(NoSuchElementException.class, ()->{q.remove();});
     }
 
@@ -83,7 +85,7 @@ public class StringGenericQueueTest {
     @DisplayName("Testing element method")
     public void testElement(){
         assertThrows(NoSuchElementException.class, ()->{q.element();});
-        q.offer("a");
-        assertEquals("a", q.element());
+        q.offer(4);
+        assertEquals(4, q.element());
     }
 }
