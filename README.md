@@ -31,13 +31,13 @@ Template: https://github.com/michaelulm/software-configuration-management/tree/m
   - [ ] Labreport entry
   - [x] Git usage
 - [ ] Implementation & Comments
-  - [ ] Find the three mistakes and correct them
+  - [x] Find the three mistakes and correct them
   - [x] Create a new parallel implementation based on Generics
   - [x] Create meaningful comments and add JavaDoc Comments to the Generics-Version
   - [ ] Labreport entry
-  - [ ] Git usage
+  - [x] Git usage
 - [ ] Testing
-  - [ ] Create tests to ensure 100% test coverage for the current implemantation
+  - [x] Create tests to ensure 100% test coverage for the current implemantation
   - [x] Create a separate testfile to test the GenericQueue with the class String and achieve 100% test coverage
   - [x] Create an additional testfile to test the GenericQueue with another class of your choice
   - [x] Describe with JavaDoc comments what exactly you are testing
