@@ -32,8 +32,8 @@ Template: https://github.com/michaelulm/software-configuration-management/tree/m
   - [x] Git usage
 - [ ] Implementation & Comments
   - [ ] Find the three mistakes and correct them
-  - [ ] Create a new parallel implementation based on Generics
-  - [ ] Create meaningful comments and add JavaDoc Comments to the Generics-Version
+  - [x] Create a new parallel implementation based on Generics
+  - [x] Create meaningful comments and add JavaDoc Comments to the Generics-Version
   - [ ] Labreport entry
   - [ ] Git usage
 - [ ] Testing
