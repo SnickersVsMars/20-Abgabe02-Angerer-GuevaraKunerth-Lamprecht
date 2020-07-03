@@ -37,6 +37,10 @@ Template: https://github.com/michaelulm/software-configuration-management/tree/m
   - [ ] Labreport entry
   - [ ] Git usage
 - [ ] Testing
+  - [ ] Create tests to ensure 100% test coverage for the current implemantation
+  - [ ] Create a separate testfile to test the GenericQueue with the class String and achieve 100% test coverage
+  - [ ] Create an additional testfile to test the GenericQueue with another class of your choice
+  - [ ] Describe with JavaDoc comments what exactly you are testing
   - [ ] Labreport entry
   - [ ] Git usage
 - [ ] Maven Site Documentation
