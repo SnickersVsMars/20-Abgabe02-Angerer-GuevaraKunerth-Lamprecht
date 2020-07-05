@@ -45,7 +45,6 @@
       <id>SamBrix</id>
       <name>Samuel Angerer</name>
       <email>samuel.angerer@edu.fh-joanneum.at</email>
-      <url></url>
       <organization>Snickers vs Mars</organization>
       <organizationUrl>https://github.com/SnickersVsMars</organizationUrl>
       <roles>
@@ -53,7 +52,7 @@
       </roles>
       <timezone>Europe/Vienna</timezone>
       <properties>
-        <picUrl>https://imgur.com/a/5wJDPJy</picUrl>
+        <picUrl>images/sambrix.png</picUrl>
       </properties>
     </developer>
   </developers>
