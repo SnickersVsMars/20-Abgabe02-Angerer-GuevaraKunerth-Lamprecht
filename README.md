@@ -28,7 +28,7 @@ Template: https://github.com/michaelulm/software-configuration-management/tree/m
     - [x] Git repository info
     - [x] Developer info
   - [x] Targets clean, validate, compile, test und site are executable without warnings
-  - [ ] Labreport entry
+  - [x] Labreport entry
   - [x] Git usage
 - [ ] Implementation & Comments
   - [x] Find the three mistakes and correct them
@@ -53,7 +53,7 @@ Template: https://github.com/michaelulm/software-configuration-management/tree/m
       - [x] Field of application of queues
       - [x] Generics 
       - [x] Code coverage of source code tests?
-  - [ ] Labreport entry
+  - [x] Labreport entry
   - [x] Git usage
 - [ ] Labreport finalization
 
