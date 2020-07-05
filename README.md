@@ -22,7 +22,7 @@ Template: https://github.com/michaelulm/software-configuration-management/tree/m
   - [x] Init .gitignore
 - [x] Readme with short description and first version of tasklist
 - [x] Adjust labreport template with team members and github link
-- [ ] Maven & Pom
+- [x] Maven & Pom
   - [x] Copy Template and include in repository
   - [x] Change Pom.xml metainfo:
     - [x] Git repository info
@@ -30,20 +30,20 @@ Template: https://github.com/michaelulm/software-configuration-management/tree/m
   - [x] Targets clean, validate, compile, test und site are executable without warnings
   - [x] Labreport entry
   - [x] Git usage
-- [ ] Implementation & Comments
+- [x] Implementation & Comments
   - [x] Find the three mistakes and correct them
   - [x] Create a new parallel implementation based on Generics
   - [x] Create meaningful comments and add JavaDoc Comments to the Generics-Version
   - [x] Labreport entry
   - [x] Git usage
-- [ ] Testing
+- [x] Testing
   - [x] Create tests to ensure 100% test coverage for the current implemantation
   - [x] Create a separate testfile to test the GenericQueue with the class String and achieve 100% test coverage
   - [x] Create an additional testfile to test the GenericQueue with another class of your choice
   - [x] Describe with JavaDoc comments what exactly you are testing
   - [x] Labreport entry
   - [x] Git usage
-- [ ] Maven Site Documentation
+- [x] Maven Site Documentation
   - [x] Generate Javadoc as Maven Site
   - [x] Manuel sites
     - [x] Queue
@@ -55,5 +55,5 @@ Template: https://github.com/michaelulm/software-configuration-management/tree/m
       - [x] Code coverage of source code tests?
   - [x] Labreport entry
   - [x] Git usage
-- [ ] Labreport finalization
+- [x] Labreport finalization
 
