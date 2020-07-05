@@ -25,28 +25,28 @@ public class IntegerGenericQueueTest {
      */
     @BeforeEach
     void beforeEach(){
-        q = new GenericQueue<>(5);
+        q = new GenericQueue<>(7);
     }
 
     /**
      * This test tests the constructor, it checks if the new queue is empty and if the maxSize
-     * is correct via the getter
+     * is set correctly via the getter
      */
     @Test
     @DisplayName("Testing constructor")
     public void testConstructor(){
         assertNull(q.poll());
-        assertEquals(5, q.getMaxSize());
+        assertEquals(7, q.getMaxSize());
     }
 
     /**
-     * This test tests the offer method, it offer Integers for as long as the maxSize is and the
+     * This test tests the offer method, it offers Integers for as long as the maxSize is and the
      * next offered object should get rejected
      */
     @Test
     @DisplayName("Testing offer method")
     public void testOffer(){
-        for (int i = 0; i < 5; i++) {
+        for (int i = 0; i < 7; i++) {
             assertTrue(q.offer(1));
         }
         assertFalse(q.offer(0));

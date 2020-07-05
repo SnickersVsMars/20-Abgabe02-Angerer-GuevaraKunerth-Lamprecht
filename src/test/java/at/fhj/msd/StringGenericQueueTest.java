@@ -28,7 +28,7 @@ public class StringGenericQueueTest {
 
     /**
      * This test tests the constructor, it checks if the new queue is empty and if the maxSize
-     * is correct via the getter
+     * is set correctly via the getter
      */
     @Test
     @DisplayName("Testing constructor")
@@ -38,7 +38,7 @@ public class StringGenericQueueTest {
     }
 
     /**
-     * This test tests the offer method, it offer Strings for as long as the maxSize is and the
+     * This test tests the offer method, it offers Strings for as long as the maxSize is and the
      * next offered object should get rejected
      */
     @Test
